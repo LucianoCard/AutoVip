@@ -1,0 +1,75 @@
+#logoheader {
+  width: 6rem;
+  left: 15rem;
+  position: relative;
+}
+#headerdivborder {
+  border-bottom: solid 3px rgb(255, 115, 0);
+}
+.carrusel {
+  border-bottom: solid 3px rgb(255, 115, 0);
+}
+#pfooter {
+  color: white;
+}
+#imgfooter {
+  width: 130px;
+}
+#footertotal {
+  border-top: 3px solid rgb(255, 115, 0);
+}
+.carruselimagen {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.carousel-item {
+  height: 600px;
+}
+select {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+}
+#botonfiltrar {
+  width: 100%;
+}
+.autoscatalogo {
+  width: 200px;
+  height: 100pxpx;
+}
+.h6nuevo {
+  width: 78px;
+  text-align: center;
+  border-radius: 7px;
+  margin: 10px;
+  color: white;
+}
+.audinuevo {
+  background-image: url("/css/img/img/cars_sales/audi_q5_2017.jpg");
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.audiQ7 {
+  background-image: url("/css/img/img/cars_sales/audi_q7_2017.jpg");
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.audia6 {
+  background-image: url("/css/img/img/cars_sales/audi_a6_quattro_2016.jpg");
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+}
+.barralateral {
+  height: 100%;
+}
+.sobrenosotrosimg1 {
+  background-image: url("/css/img/img/about_us/about.jpg");
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}

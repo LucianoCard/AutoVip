@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ventas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css\css\style.css" />
+  </head>
+  <body>
+    <div>
+      <header
+        class="row bg-dark p-4 d-flex flex-wrap position-relative"
+        id="headerdivborder"
+      >
+        <div class="col">
+          <img
+            src="/css/img/img/automotora_vip_logo.png"
+            alt=""
+            id="logoheader"
+          />
+        </div>
+        <div class="col">
+          <a
+            href="/ventas.html"
+            target="_blank"
+            class="btn btn-dark text-white-50"
+            >Venta 0km</a
+          >
+          <a
+            href="/ventas.html"
+            target="_blank"
+            class="btn btn-dark text-white-50"
+            >Venta Usados</a
+          >
+          <a
+            href="/Sobrenosotros.html"
+            target="_blank"
+            class="btn btn-dark text-white-50"
+            >Sobre Nosotros</a
+          >
+          <a
+            href="/Sobrenosotros.html"
+            target="_blank"
+            class="btn btn-dark text-white-50"
+            >Contacto</a
+          >
+        </div>
+      </header>
+      <div class="container">
+        <div class="row container mt-4">
+          <div class="col-10">
+            <h1><strong>Ventas</strong></h1>
+          </div>
+          <div class="col mt-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-left-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5m14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5"
+              />
+            </svg>
+            <strong>UYU/ USD : 28.38</strong>
+          </div>
+        </div>
+        <hr />
+        <main>
+          <div class="row">
+            <div class="col-3 bg-secondary-subtle pb-3 barralateral border">
+              <aside>
+                <h2 class="mt-3">Filtro</h2>
+                <hr />
+                <form action="">
+                  <div class="row">
+                    <div class="col-12 mb-3">
+                      <label for="seleaño"><h4>Año</h4></label>
+                      <br />
+                      <select name="seleaño" id="seleaño">
+                        <option value="" selected>Seleccionar...</option>
+                        <option value="">2013</option>
+                        <option value="">2014</option>
+                        <option value="">2015</option>
+                      </select>
+                    </div>
+                    <div class="col-12 mb-3">
+                      <label for="marca"><h4>Marca</h4></label>
+                      <br />
+                      <select name="" id="marca">
+                        <option value="">Seleccionar...</option>
+                        <option value="">Audi</option>
+                        <option value="">BMW</option>
+                        <option value="">VOLVO</option>
+                      </select>
+                    </div>
+                    <div class="col-12 mb-3">
+                      <label for="modelo"><h4>Modelo</h4></label>
+                      <br />
+                      <select name="" id="modelo">
+                        <option value="">Seleccionar...</option>
+                        <option value="">AudiQ5</option>
+                        <option value="">AudiQ7</option>
+                        <option value="">Audi A6 Quattro</option>
+                      </select>
+                    </div>
+                    <div class="col-12 mb-3">
+                      <label for="estado"><h4>Estado</h4></label>
+                      <br />
+                      <select name="" id="estado">
+                        <option value="">Seleccionar...</option>
+                        <option value="">0KM</option>
+                        <option value="">Usado</option>
+                        <option value="">+100.000km</option>
+                      </select>
+                    </div>
+                    <div class="col-12 mt-3 text-center">
+                      <button id="botonfiltrar" class="btn btn-warning">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-search"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                          />
+                        </svg>
+                        FILTRAR
+                      </button>
+                      <button class="btn btn-outline-dark mt-4">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-currency-dollar"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M4 10.781c.148 1.667 1.513 2.85 3.591 3.003V15h1.043v-1.216c2.27-.179 3.678-1.438 3.678-3.3 0-1.59-.947-2.51-2.956-3.028l-.722-.187V3.467c1.122.11 1.879.714 2.07 1.616h1.47c-.166-1.6-1.54-2.748-3.54-2.875V1H7.591v1.233c-1.939.23-3.27 1.472-3.27 3.156 0 1.454.966 2.483 2.661 2.917l.61.162v4.031c-1.149-.17-1.94-.8-2.131-1.718zm3.391-3.836c-1.043-.263-1.6-.825-1.6-1.616 0-.944.704-1.641 1.8-1.828v3.495l-.2-.05zm1.591 1.872c1.287.323 1.852.859 1.852 1.769 0 1.097-.826 1.828-2.2 1.939V8.73z"
+                          /></svg
+                        >Cambiar moneda
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </aside>
+            </div>
+            <div class="col-9">
+              <main>
+                <div class="row ms-2 mb-3">
+                  <div class="col border border-2 m-0 p-0">
+                    <div class="border border-3 m-1 audinuevo p-0">
+                      <h6 class="bg-warning h6nuevo pb-1">Nuevo</h6>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="row">
+                      <div class="col">
+                        <h2>Audi Q5</h2>
+                      </div>
+                      <div class="col">
+                        2017 | USD 92.000 |
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cum, tenetur. Iure odio nisi aut. Facere a adipisci maxime
+                    quis sed veniam non distinctio animi, eos voluptatum saepe
+                    impedit accusantium ipsam?
+                    <div class="mt-3">
+                      <button class="btn btn-success">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-cart"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                          />
+                        </svg>
+                        Comprar
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-info-circle"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                          />
+                          <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+                          />
+                        </svg>
+                        Más informacion
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-share"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
+                          />
+                        </svg>
+                        Compartir
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <!--------------------------CARD-------------------------------->
+                <div class="row ms-2 mb-3">
+                  <div class="col border border-2 m-0 p-0">
+                    <div class="border border-3 m-1 audiQ7 p-0"></div>
+                  </div>
+                  <div class="col">
+                    <div class="row">
+                      <div class="col-5">
+                        <h2>Audi Q7</h2>
+                      </div>
+                      <div class="col">
+                        2017 | USD 110.000 |
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cum, tenetur. Iure odio nisi aut. Facere a adipisci maxime
+                    quis sed veniam non distinctio animi, eos voluptatum saepe
+                    impedit accusantium ipsam?
+                    <div class="mt-3">
+                      <button class="btn btn-success">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-cart"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                          />
+                        </svg>
+                        Comprar
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-info-circle"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                          />
+                          <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+                          />
+                        </svg>
+                        Más informacion
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-share"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
+                          />
+                        </svg>
+                        Compartir
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+                <!---------------------------CARD--------------------------------->
+                <div class="row ms-2 mb-3">
+                  <div class="col border border-2 m-0 p-0">
+                    <div class="border border-3 m-1 audia6 p-0"></div>
+                  </div>
+                  <div class="col">
+                    <div class="row">
+                      <div class="col-8">
+                        <h2>Audi A6 quattro</h2>
+                      </div>
+                      <div class="col">
+                        2017 | USD 98.000 |
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          /></svg
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-star-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Cum, tenetur. Iure odio nisi aut. Facere a adipisci maxime
+                    quis sed veniam non distinctio animi, eos voluptatum saepe
+                    impedit accusantium ipsam?
+                    <div class="mt-3">
+                      <button class="btn btn-success">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-cart"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                          />
+                        </svg>
+                        Comprar
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-info-circle"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                          />
+                          <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+                          />
+                        </svg>
+                        Más informacion
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-share"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
+                          />
+                        </svg>
+                        Compartir
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+              </main>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="bg-dark" id="footertotal">
+        <footer class="container p-5">
+          <div class="row">
+            <div class="col">
+              <img
+                src="css\img\img\automotora_vip_logo.png"
+                alt=""
+                id="imgfooter"
+              />
+            </div>
+            <div class="col">
+              <a href="/ventas.html" target="_blank" class="btn btn-dark"
+                >Venta 0km</a
+              >
+              <br />
+              <a href="/ventas.html" target="_blank" class="btn btn-dark"
+                >Venta Usados</a
+              >
+            </div>
+            <div class="col">
+              <a href="/Sobrenosotros.html" target="_blank" class="btn btn-dark"
+                >Sobre nosotros</a
+              >
+              <br />
+              <a href="/Sobrenosotros.html" target="_blank" class="btn btn-dark"
+                >Contacto</a
+              >
+            </div>
+            <div class="col">
+              <p id="pfooter">Copyright © AutoVIP 2023</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
