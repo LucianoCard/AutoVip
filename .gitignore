@@ -1,0 +1,11 @@
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones locales de VSCode
+.vscode/
+
+# Ignorar carpetas de producción o librerías
+dist/
+build/
+node_modules/
