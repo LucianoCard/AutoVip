@@ -46,19 +46,19 @@ select {
   color: white;
 }
 .audinuevo {
-  background-image: url("/css/img/img/cars_sales/audi_q5_2017.jpg");
+  background-image: url("css\img\img\cars_sales\audi_q5_2017.jpg");
   height: 200px;
   background-position: center;
   background-size: cover;
 }
 .audiQ7 {
-  background-image: url("/css/img/img/cars_sales/audi_q7_2017.jpg");
+  background-image: url("css\img\img\cars_sales\audi_q7_2017.jpg");
   height: 200px;
   background-position: center;
   background-size: cover;
 }
 .audia6 {
-  background-image: url("/css/img/img/cars_sales/audi_a6_quattro_2016.jpg");
+  background-image: url("css\img\img\cars_sales\audi_a6_quattro_2016.jpg");
   height: 200px;
   background-position: center;
   background-size: cover;
@@ -67,7 +67,7 @@ select {
   height: 100%;
 }
 .sobrenosotrosimg1 {
-  background-image: url("/css/img/img/about_us/about.jpg");
+  background-image: url("css\img\img\about_us\about.jpg");
   height: 300px;
   width: 100%;
   background-position: center;
