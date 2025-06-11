@@ -1,10 +1,9 @@
-#logoheader {
-  width: 6rem;
-  left: 15rem;
-  position: relative;
-}
 #headerdivborder {
   border-bottom: solid 3px rgb(255, 115, 0);
+}
+#divbotonesheader {
+  top: -1rem;
+  position: relative;
 }
 .carrusel {
   border-bottom: solid 3px rgb(255, 115, 0);
@@ -31,9 +30,7 @@ select {
   height: 35px;
   border-radius: 5px;
 }
-#botonfiltrar {
-  width: 100%;
-}
+
 .autoscatalogo {
   width: 200px;
   height: 100pxpx;
@@ -45,11 +42,8 @@ select {
   margin: 10px;
   color: white;
 }
-.audinuevo {
-  background-image: url("../../img/cars_sales/audi_q5_2017.jpg");
+.autonuevo {
   height: 200px;
-  background-position: center;
-  background-size: cover;
 }
 .audiQ7 {
   background-image: url("../../img/cars_sales/audi_q7_2017.jpg");

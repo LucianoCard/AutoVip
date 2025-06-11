@@ -14,43 +14,44 @@
   </head>
   <body>
     <div>
-      <header
-        class="row bg-dark p-4 d-flex flex-wrap position-relative"
-        id="headerdivborder"
-      >
-        <div class="col">
-          <img src="img/automotora_vip_logo.png" alt="" id="logoheader" />
+      <header class="row bg-dark p-3" id="headerdivborder">
+        <div class="container-fluid">
+          <div
+            class="col-12 col-lg-3 mb-3 mb-lg-0 d-flex justify-content-center justify-content-lg-end"
+          >
+            <img
+              src="img/automotora_vip_logo.png"
+              alt="Logo"
+              id="logoheader"
+              class="w-50 w-lg-25"
+            />
+          </div>
         </div>
-        <div class="col">
-          <a
-            href="ventas.html"
-            target="_blank"
-            class="btn btn-dark text-white-50"
-            >Venta 0km</a
+        <div class="col-12 col-lg-9">
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-end top-lg-0 gap-2"
+            id="divbotonesheader"
           >
-          <a
-            href="ventas.html"
-            target="_blank"
-            class="btn btn-dark text-white-50"
-            >Venta Usados</a
-          >
-          <a
-            href="Sobrenosotros.html"
-            target="_blank"
-            class="btn btn-dark text-white-50"
-            >Sobre Nosotros</a
-          >
-          <a
-            href="Sobrenosotros.html"
-            target="_blank"
-            class="btn btn-dark text-white-50"
-            >Contacto</a
-          >
+            <a href="ventas.html" class="btn btn-dark text-white-50"
+              >Venta 0km</a
+            >
+            <a href="ventas.html" class="btn btn-dark text-white-50"
+              >Venta Usados</a
+            >
+            <a href="Sobrenosotros.html" class="btn btn-dark text-white-50"
+              >Sobre Nosotros</a
+            >
+            <a href="Sobrenosotros.html" class="btn btn-dark text-white-50"
+              >Contacto</a
+            >
+          </div>
         </div>
       </header>
       <div class="container">
-        <div class="row container mt-4">
-          <div class="col-10">
+        <div
+          class="row container mt-4 justify-content-lg-center position-relative"
+        >
+          <div class="col-lg-10 align-items-center">
             <h1><strong>Ventas</strong></h1>
           </div>
           <div class="col mt-3">
@@ -73,7 +74,9 @@
         <hr />
         <main>
           <div class="row">
-            <div class="col-3 bg-secondary-subtle pb-3 barralateral border">
+            <div
+              class="col-12 col-lg-3 bg-secondary-subtle pb-3 barralateral border"
+            >
               <aside>
                 <h2 class="mt-3">Filtro</h2>
                 <hr />
@@ -92,7 +95,7 @@
                     <div class="col-12 mb-3">
                       <label for="marca"><h4>Marca</h4></label>
                       <br />
-                      <select name="" id="marca">
+                      <select name="" id="marca" class="">
                         <option value="">Seleccionar...</option>
                         <option value="">Audi</option>
                         <option value="">BMW</option>
@@ -119,8 +122,10 @@
                         <option value="">+100.000km</option>
                       </select>
                     </div>
-                    <div class="col-12 mt-3 text-center">
-                      <button id="botonfiltrar" class="btn btn-warning">
+                    <div
+                      class="col-12 col-lg-12 mt-3 d-flex flex-column justify-content-lg-center align-items-center"
+                    >
+                      <button id="botonfiltrar" class="btn btn-warning w-75">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
@@ -154,338 +159,177 @@
                 </form>
               </aside>
             </div>
-            <div class="col-9">
+            <div class="col-12 col-lg-9">
               <main>
-                <div class="row ms-2 mb-3">
-                  <div class="col border border-2 m-0 p-0">
-                    <div class="border border-3 m-1 audinuevo p-0">
-                      <h6 class="bg-warning h6nuevo pb-1">Nuevo</h6>
+                <div class="row ms-2 mb-3 mt-4 mt-lg-0">
+                  <div class="col-lg border border-2 m-0 p-0">
+                    <div class="border border-3 m-1 autonuevo p-0">
+                      <img src="img\cars_home\bentley_1.jpg" alt="" /
+                      class="w-100 h-100 position-relative">
                     </div>
                   </div>
-                  <div class="col">
+                  <div class="col-lg">
                     <div class="row">
                       <div class="col">
-                        <h2>Audi Q5</h2>
+                        <h2 id="autonombre"></h2>
                       </div>
-                      <div class="col">
-                        2017 | USD 92.000 |
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cum, tenetur. Iure odio nisi aut. Facere a adipisci maxime
-                    quis sed veniam non distinctio animi, eos voluptatum saepe
-                    impedit accusantium ipsam?
-                    <div class="mt-3">
-                      <button class="btn btn-success">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-cart"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
-                          />
-                        </svg>
-                        Comprar
-                      </button>
-                      <button class="btn btn-outline-secondary">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-info-circle"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
-                          />
-                          <path
-                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
-                          />
-                        </svg>
-                        Más informacion
-                      </button>
-                      <button class="btn btn-outline-secondary">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-share"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
-                          />
-                        </svg>
-                        Compartir
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <hr />
-                <!--------------------------CARD-------------------------------->
-                <div class="row ms-2 mb-3">
-                  <div class="col border border-2 m-0 p-0">
-                    <div class="border border-3 m-1 audiQ7 p-0"></div>
-                  </div>
-                  <div class="col">
-                    <div class="row">
-                      <div class="col-5">
-                        <h2>Audi Q7</h2>
-                      </div>
-                      <div class="col">
-                        2017 | USD 110.000 |
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          />
-                        </svg>
-                      </div>
-                    </div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cum, tenetur. Iure odio nisi aut. Facere a adipisci maxime
-                    quis sed veniam non distinctio animi, eos voluptatum saepe
-                    impedit accusantium ipsam?
-                    <div class="mt-3">
-                      <button class="btn btn-success">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-cart"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
-                          />
-                        </svg>
-                        Comprar
-                      </button>
-                      <button class="btn btn-outline-secondary">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-info-circle"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
-                          />
-                          <path
-                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
-                          />
-                        </svg>
-                        Más informacion
-                      </button>
-                      <button class="btn btn-outline-secondary">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-share"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
-                          />
-                        </svg>
-                        Compartir
-                      </button>
-                    </div>
-                  </div>
-                </div>
-                <hr />
-                <!---------------------------CARD--------------------------------->
-                <div class="row ms-2 mb-3">
-                  <div class="col border border-2 m-0 p-0">
-                    <div class="border border-3 m-1 audia6 p-0"></div>
-                  </div>
-                  <div class="col">
-                    <div class="row">
                       <div class="col-8">
-                        <h2>Audi A6 quattro</h2>
+                        <h7 id="PriceUSandUY">255555555</h7>
+                        <p id="estrellasRating">55555</p>
                       </div>
-                      <div class="col">
-                        2017 | USD 98.000 |
+                    </div>
+                    <p id="infoVehiculo"></p>
+
+                    <!----------------------------------------------------------------------------->
+                    <div class="mt-3 d-flex d-lg-block">
+                      <button class="btn btn-success">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="16"
                           height="16"
                           fill="currentColor"
-                          class="bi bi-star-fill"
+                          class="bi bi-cart"
                           viewBox="0 0 16 16"
                         >
                           <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
-                          /></svg
-                        ><svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="16"
-                          height="16"
-                          fill="currentColor"
-                          class="bi bi-star-fill"
-                          viewBox="0 0 16 16"
-                        >
-                          <path
-                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
                           />
                         </svg>
+                        Comprar
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-info-circle"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                          />
+                          <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+                          />
+                        </svg>
+                        Más informacion
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-share"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
+                          />
+                        </svg>
+                        Compartir
+                      </button>
+                    </div>
+                  </div>
+                </div>
+
+                <hr />
+                <div class="row ms-2 mb-3 mt-4 mt-lg-0">
+                  <div class="col-lg border border-2 m-0 p-0">
+                    <div class="border border-3 m-1 autonuevo p-0">
+                      <img src="img\cars_home\bentley_1.jpg" alt="" /
+                      class="w-100 h-100 position-relative">
+                    </div>
+                  </div>
+                  <div class="col-lg">
+                    <div class="row">
+                      <div class="col">
+                        <h2 id="autonombre">AUDI15</h2>
+                      </div>
+                      <div class="col-8">
+                        <h7 id="PriceUSandUY">255555555</h7>
+                        <p id="estrellasRating">55555</p>
                       </div>
                     </div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cum, tenetur. Iure odio nisi aut. Facere a adipisci maxime
-                    quis sed veniam non distinctio animi, eos voluptatum saepe
-                    impedit accusantium ipsam?
-                    <div class="mt-3">
+                    <p id="infoVehiculo"></p>
+
+                    <!----------------------------------------------------------------------------->
+                    <div class="mt-3 d-flex d-lg-block">
+                      <button class="btn btn-success">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-cart"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+                          />
+                        </svg>
+                        Comprar
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-info-circle"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                          />
+                          <path
+                            d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0"
+                          />
+                        </svg>
+                        Más informacion
+                      </button>
+                      <button class="btn btn-outline-secondary">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-share"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.5 2.5 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"
+                          />
+                        </svg>
+                        Compartir
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!--------------------------CARD-------------------------------->
+                <hr />
+                <div class="row ms-2 mb-3 mt-4 mt-lg-0">
+                  <div class="col-lg border border-2 m-0 p-0">
+                    <div class="border border-3 m-1 autonuevo p-0">
+                      <img src="img\cars_home\bentley_1.jpg" alt="" /
+                      class="w-100 h-100 position-relative">
+                    </div>
+                  </div>
+                  <div class="col-lg">
+                    <div class="row">
+                      <div class="col">
+                        <h2 id="autonombre">AUDI15</h2>
+                      </div>
+                      <div class="col-8">
+                        <h7 id="PriceUSandUY">255555555</h7>
+                        <p id="estrellasRating">55555</p>
+                      </div>
+                    </div>
+                    <p id="infoVehiculo"></p>
+
+                    <!----------------------------------------------------------------------------->
+                    <div class="mt-3 d-flex d-lg-block">
                       <button class="btn btn-success">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -550,22 +394,16 @@
               <img src="img/automotora_vip_logo.png" alt="" id="imgfooter" />
             </div>
             <div class="col">
-              <a href="ventas.html" target="_blank" class="btn btn-dark"
-                >Venta 0km</a
-              >
+              <a href="ventas.html" class="btn btn-dark">Venta 0km</a>
               <br />
-              <a href="ventas.html" target="_blank" class="btn btn-dark"
-                >Venta Usados</a
-              >
+              <a href="ventas.html" class="btn btn-dark">Venta Usados</a>
             </div>
             <div class="col">
-              <a href="Sobrenosotros.html" target="_blank" class="btn btn-dark"
+              <a href="Sobrenosotros.html" class="btn btn-dark"
                 >Sobre nosotros</a
               >
               <br />
-              <a href="Sobrenosotros.html" target="_blank" class="btn btn-dark"
-                >Contacto</a
-              >
+              <a href="Sobrenosotros.html" class="btn btn-dark">Contacto</a>
             </div>
             <div class="col">
               <p id="pfooter">Copyright © AutoVIP 2023</p>
@@ -574,5 +412,7 @@
         </footer>
       </div>
     </div>
+    <script src="JS/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
