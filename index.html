@@ -14,29 +14,37 @@
   </head>
   <body>
     <div class="">
-      <header
-        class="row bg-dark p-4 d-flex flex-wrap position-relative"
-        id="headerdivborder"
-      >
-        <div class="col">
-          <img
-            src="img/automotora_vip_logo.png"
-            alt=""
-            id="logoheader"
-            class="w-25"
-          />
+      <header class="row bg-dark p-3" id="headerdivborder">
+        <div class="container-fluid">
+          <div
+            class="col-12 col-lg-3 mb-3 mb-lg-0 d-flex justify-content-center justify-content-lg-end"
+          >
+            <img
+              src="img/automotora_vip_logo.png"
+              alt="Logo"
+              id="logoheader"
+              class="w-50 w-lg-25"
+            />
+          </div>
         </div>
-        <div class="col">
-          <a href="ventas.html" class="btn btn-dark text-white-50">Venta 0km</a>
-          <a href="ventas.html" class="btn btn-dark text-white-50"
-            >Venta Usados</a
+        <div class="col-12 col-lg-9">
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center justify-content-lg-end top-lg-0 gap-2"
+            id="divbotonesheader"
           >
-          <a href="Sobrenosotros.html" class="btn btn-dark text-white-50"
-            >Sobre Nosotros</a
-          >
-          <a href="Sobrenosotros.html" class="btn btn-dark text-white-50"
-            >Contacto</a
-          >
+            <a href="ventas.html" class="btn btn-dark text-white-50"
+              >Venta 0km</a
+            >
+            <a href="ventas.html" class="btn btn-dark text-white-50"
+              >Venta Usados</a
+            >
+            <a href="Sobrenosotros.html" class="btn btn-dark text-white-50"
+              >Sobre Nosotros</a
+            >
+            <a href="Sobrenosotros.html" class="btn btn-dark text-white-50"
+              >Contacto</a
+            >
+          </div>
         </div>
       </header>
       <!-------------------------- HEADER END ----------------------------->
@@ -135,7 +143,7 @@
 
         <!-----------------------------------CARUSEL END---------------------------------------->
         <div class="container">
-          <div class="container ps-5 mt-4 ms-4">
+          <div class="container ps-5 mt-lg-4 ms-lg-4">
             <h2><strong>Bienvenido a </strong>AUTO<strong>VIP</strong></h2>
           </div>
           <hr class="container" />
@@ -144,7 +152,7 @@
               <div class="col">
                 <header
                   id="headercard1"
-                  class="container bg-secondary-subtle border border-secondary pt-2"
+                  class="container bg-secondary-subtle border border-secondary pt-lg-2"
                 >
                   <p class="container fw-bold">
                     <svg
@@ -267,25 +275,41 @@
       </main>
       <!-----------------------------------------FOOTER--------------------------------------------------->
       <div class="bg-dark" id="footertotal">
-        <footer class="container p-5">
-          <div class="row">
-            <div class="col">
-              <img src="img/automotora_vip_logo.png" alt="" id="imgfooter" />
+        <footer class="container-fluid py-5">
+          <div class="row text-center text-md-start">
+            <div
+              class="col-12 col-md-3 mb-4 mb-md-0 d-flex justify-content-center"
+            >
+              <img
+                src="img/automotora_vip_logo.png"
+                alt="AutoVIP Logo"
+                id="imgfooter"
+                class="img-fluid"
+              />
             </div>
-            <div class="col">
-              <a href="ventas.html" class="btn btn-dark">Venta 0km</a>
-              <br />
-              <a href="ventas.html" class="btn btn-dark">Venta Usados</a>
+
+            <div class="col-6 col-md-3 mb-3">
+              <a href="ventas.html" class="btn text-white w-100 mb-2"
+                >Venta 0km</a
+              >
+              <a href="ventas.html" class="btn text-white w-100"
+                >Venta Usados</a
+              >
             </div>
-            <div class="col">
-              <a href="Sobrenosotros.html" class="btn btn-dark"
+
+            <div class="col-6 col-md-3 mb-3">
+              <a href="Sobrenosotros.html" class="btn text-white w-100 mb-2"
                 >Sobre nosotros</a
               >
-              <br />
-              <a href="Sobrenosotros.html" class="btn btn-dark">Contacto</a>
+              <a href="Sobrenosotros.html" class="btn text-white w-100"
+                >Contacto</a
+              >
             </div>
-            <div class="col">
-              <p id="pfooter">Copyright © AutoVIP 2023</p>
+
+            <div
+              class="col-12 col-md-3 d-flex align-items-center justify-content-center mt-3 mt-md-0"
+            >
+              <p class="mb-0 text-center">© AutoVIP 2023</p>
             </div>
           </div>
         </footer>

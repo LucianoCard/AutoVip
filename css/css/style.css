@@ -12,7 +12,8 @@
   color: white;
 }
 #imgfooter {
-  width: 130px;
+  max-width: 250px;
+  height: auto;
 }
 #footertotal {
   border-top: 3px solid rgb(255, 115, 0);
@@ -42,21 +43,6 @@ select {
   margin: 10px;
   color: white;
 }
-.autonuevo {
-  height: 200px;
-}
-.audiQ7 {
-  background-image: url("../../img/cars_sales/audi_q7_2017.jpg");
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-}
-.audia6 {
-  background-image: url("../../img/cars_sales/audi_a6_quattro_2016.jpg");
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-}
 .barralateral {
   height: 100%;
 }
@@ -66,4 +52,8 @@ select {
   width: 100%;
   background-position: center;
   background-size: cover;
+}
+#cartaError {
+  border: solid 1px rgb(255, 115, 0);
+  color: white;
 }
